@@ -1,0 +1,42 @@
+<!Doctype html>
+<html>
+<head>
+     <style>
+    /* Some basic styles for the menu */
+    ul.menu {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: #f1f1f1;
+    }
+
+    ul.menu li {
+      display: inline-block;
+    }
+
+    ul.menu li a {
+      display: block;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    ul.menu li a:hover {
+      background-color: #ddd;
+    }
+  </style>
+
+    <<nav>
+    <ul class="menu">
+
+      <li><a href="{{url_for('static',filename='results/correlation.html')}}">CorrelationMatrix</a></li>
+      <li><a href="{{url_for('static',filename='results/report.html')}}">DatasetAnalysis</a></li>
+
+    </ul>
+  </nav>
+</head>
+{% block head %} {% endblock %}
+<body>
+{% block body %} {% endblock %}
+</body>
+</html>
