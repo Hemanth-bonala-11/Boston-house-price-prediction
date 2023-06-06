@@ -9,6 +9,7 @@ app=Flask(__name__)
 @app.route('/',methods=['GET','POST'])
 def home():
     return render_template('index.html')
+@cross_origin()
 @app.route('/result',methods=['GET','POST'])
 def result():
     if request.method == "POST":
