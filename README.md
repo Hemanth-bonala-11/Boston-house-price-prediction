@@ -1,2 +1,2 @@
 # Boston-house-price-prediction
-#  boston-house-price-prediction.azurewebsites.net
+#  https://boston-house-price-prediction.azurewebsites.net/
