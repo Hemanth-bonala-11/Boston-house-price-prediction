@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'Boston-House-price-prediction'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8B5D841B97F344C6B459691C175DA94A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3FE4D2B9C34C4A7E947BD145AA262524 }}
